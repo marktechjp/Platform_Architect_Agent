@@ -1,0 +1,22 @@
+{
+  "timestamp": "20250913_195729",
+  "business_requirement": "地域の農家と都市部のレストランを直接つなぐ、新鮮な食材のマッチングプラットフォーム。農家は収穫情報を投稿でき、レストランは必要な食材を検索・注文できる。",
+  "project_overview": {
+    "name": "産直マッチングプラットフォーム『Farm-to-Table Direct』",
+    "description": "地域の農家と都市部のレストランを直接つなぎ、新鮮な食材の取引を円滑にするマッチングプラットフォーム。農家は収穫情報をリアルタイムで投稿し、レストランは必要な食材を効率的に検索・注文できることで、フードサプライチェーンの革新を目指します。",
+    "technical_stack": [
+      "TypeScript",
+      "React (Next.js)",
+      "Node.js (NestJS)",
+      "PostgreSQL",
+      "Elasticsearch",
+      "Docker",
+      "Kubernetes",
+      "AWS (ECS, S3, RDS, ElastiCache)",
+      "Stripe API",
+      "GitHub Actions"
+    ],
+    "estimated_timeline": "MVP（Minimum Viable Product）開発: 4〜6ヶ月"
+  },
+  "agents_count": 6
+}

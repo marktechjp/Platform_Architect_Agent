@@ -1,0 +1,20 @@
+{
+  "timestamp": "20250913_171318",
+  "business_requirement": "電気工事士向けのキャリア相談ができるマッチングプラットフォーム",
+  "project_overview": {
+    "name": "電工キャリアコネクト",
+    "description": "電気工事士のキャリア形成を支援するための、専門アドバイザーとのマッチングプラットフォーム。オンラインでのキャリア相談、スキルアッププランの策定、転職活動のサポートをワンストップで提供します。",
+    "technical_stack": [
+      "Next.js",
+      "TypeScript",
+      "Go",
+      "PostgreSQL",
+      "AWS (ECS, RDS, S3)",
+      "Docker",
+      "Terraform",
+      "GitHub Actions"
+    ],
+    "estimated_timeline": "MVP（Minimum Viable Product）開発: 4ヶ月、追加機能開発フェーズ: +3ヶ月"
+  },
+  "agents_count": 6
+}

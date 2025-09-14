@@ -1,0 +1,25 @@
+{
+  "timestamp": "20250914_125440",
+  "business_requirement": "AIを活用した新しいブログプラットフォーム",
+  "project_overview": {
+    "name": "Articraft AI Blogging Platform",
+    "description": "大規模言語モデル(LLM)を活用し、記事の執筆支援、SEO最適化、多言語翻訳、コンテンツ推薦などを自動化することで、クリエイターの表現力と収益性を最大化する次世代のブログプラットフォーム。",
+    "technical_stack": [
+      "Next.js (React)",
+      "TypeScript",
+      "Tailwind CSS",
+      "Python (FastAPI)",
+      "PostgreSQL",
+      "Redis",
+      "LLM API (e.g., GPT-4, Gemini)",
+      "Vector Database (e.g., Pinecone)",
+      "AWS (EKS, S3, RDS, Lambda)",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "GitHub Actions"
+    ],
+    "estimated_timeline": "6ヶ月 (MVPリリースまで)"
+  },
+  "agents_count": 6
+}

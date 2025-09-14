@@ -1,0 +1,15 @@
+{
+  "timestamp": "20250914_125705",
+  "business_requirement": "AIを活用した新しいブログプラットフォーム",
+  "project_overview": {
+    "name": "Webアプリケーション開発プロジェクト",
+    "description": "要件に基づくカスタムWebアプリケーション",
+    "technical_stack": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "estimated_timeline": "6-8週間"
+  },
+  "agents_count": 2
+}

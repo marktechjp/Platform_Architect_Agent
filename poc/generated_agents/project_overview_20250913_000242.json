@@ -1,0 +1,15 @@
+{
+  "timestamp": "20250913_000242",
+  "business_requirement": "電気工事業界特化の求人プラットフォーム(電工しごとセンター)",
+  "project_overview": {
+    "name": "カスタムWebアプリケーション",
+    "description": "要件「電気工事業界特化の求人プラットフォーム(電工しごとセンター)」に基づくWebアプリケーション",
+    "technical_stack": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "estimated_timeline": "6-10週間"
+  },
+  "agents_count": 2
+}

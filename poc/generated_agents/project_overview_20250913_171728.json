@@ -1,0 +1,22 @@
+{
+  "timestamp": "20250913_171728",
+  "business_requirement": "電気工事士向けのキャリア相談ができるマッチングプラットフォーム",
+  "project_overview": {
+    "name": "電工キャリアコネクト",
+    "description": "電気工事士がキャリアに関する悩みを相談できる、経験豊富なメンターとのマッチングプラットフォーム。プロフィールの登録から、メンター検索、オンラインでのキャリア相談予約・実施、決済までをワンストップで提供し、電気工事士のキャリア形成を支援します。",
+    "technical_stack": [
+      "Next.js (React)",
+      "TypeScript",
+      "Tailwind CSS",
+      "NestJS (Node.js)",
+      "PostgreSQL",
+      "AWS (ECS Fargate, RDS, S3)",
+      "Terraform",
+      "GitHub Actions",
+      "Stripe (決済)",
+      "Twilio (ビデオ通話)"
+    ],
+    "estimated_timeline": "6ヶ月 (MVPリリースまで)"
+  },
+  "agents_count": 6
+}

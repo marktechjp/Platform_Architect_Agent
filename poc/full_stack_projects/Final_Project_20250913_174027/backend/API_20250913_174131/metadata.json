@@ -1,0 +1,24 @@
+{
+  "agent": "Backend Developer Agent",
+  "version": "3.0",
+  "timestamp": "20250913_174131",
+  "framework": "Node.js + Express",
+  "features": [
+    "JWT認証",
+    "ユーザー登録・ログイン",
+    "CORS対応",
+    "エラーハンドリング"
+  ],
+  "endpoints": [
+    "POST /api/auth/register",
+    "POST /api/auth/login",
+    "GET /api/auth/me",
+    "GET /health"
+  ],
+  "files": [
+    "server.js",
+    "package.json",
+    "README.md",
+    ".env.example"
+  ]
+}

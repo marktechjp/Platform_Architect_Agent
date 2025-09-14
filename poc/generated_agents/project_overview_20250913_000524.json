@@ -1,0 +1,15 @@
+{
+  "timestamp": "20250913_000524",
+  "business_requirement": "python full_agent_orchestrator.py",
+  "project_overview": {
+    "name": "カスタムWebアプリケーション",
+    "description": "要件「python full_agent_orchestrator.py」に基づくWebアプリケーション",
+    "technical_stack": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "estimated_timeline": "6-10週間"
+  },
+  "agents_count": 2
+}

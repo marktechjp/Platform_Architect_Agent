@@ -1,0 +1,19 @@
+{
+  "timestamp": "20250913_173015",
+  "business_requirement": "電気工事士向けのキャリア相談ができるマッチングプラットフォーム",
+  "project_overview": {
+    "name": "電キャリ相談プラットフォーム",
+    "description": "電気工事士が経験豊富なアドバイザーにキャリア相談できるオンラインマッチングプラットフォーム。電気工事士の資格、経験、キャリア志向と、アドバイザーの専門性をマッチングさせ、予約からオンライン相談、決済までをワンストップで提供することで、専門職のキャリアアップを支援します。",
+    "technical_stack": [
+      "Next.js",
+      "TypeScript",
+      "NestJS",
+      "PostgreSQL",
+      "AWS (ECS, Fargate, RDS, S3)",
+      "Stripe",
+      "WebRTC (Agora/Twilio)"
+    ],
+    "estimated_timeline": "約5ヶ月 (MVP開発)"
+  },
+  "agents_count": 5
+}

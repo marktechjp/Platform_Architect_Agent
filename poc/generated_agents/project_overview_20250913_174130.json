@@ -1,0 +1,23 @@
+{
+  "timestamp": "20250913_174130",
+  "business_requirement": "電気工事士向けのキャリア相談ができるマッチングプラットフォーム",
+  "project_overview": {
+    "name": "電キャリコネクト (Den-Career Connect)",
+    "description": "電気工事士のキャリア形成を支援するため、経験豊富なキャリアアドバイザーと電気工事士を繋ぐことに特化したマッチングプラットフォームです。ユーザーは自身のスキルや経験を登録し、キャリア相談や転職支援を受けることができます。",
+    "technical_stack": [
+      "Next.js (React)",
+      "TypeScript",
+      "NestJS (Node.js)",
+      "PostgreSQL",
+      "AWS (ECS, RDS, S3, CloudFront)",
+      "Docker",
+      "Terraform",
+      "GitHub Actions",
+      "Stripe (決済)",
+      "Auth0 (認証)",
+      "Elasticsearch (検索)"
+    ],
+    "estimated_timeline": "MVP（Minimum Viable Product）開発: 4〜6ヶ月"
+  },
+  "agents_count": 5
+}

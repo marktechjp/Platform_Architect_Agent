@@ -1,0 +1,24 @@
+{
+  "timestamp": "20250913_175145",
+  "business_requirement": "電気工事士向けのキャリア相談ができるマッチングプラットフォーム",
+  "project_overview": {
+    "name": "デンソー・キャリア (Denso Career)",
+    "description": "電気工事士が、経験豊富なメンターにキャリアパス（資格取得、転職、独立など）の相談ができるオンラインマッチングプラットフォーム。ユーザーのスキルと目標に合わせた最適なメンターを推薦し、キャリア形成を支援します。",
+    "technical_stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "AWS (ECS, Fargate, RDS, S3)",
+      "Docker",
+      "Terraform",
+      "GitHub Actions",
+      "Stripe",
+      "Twilio"
+    ],
+    "estimated_timeline": "6ヶ月 (MVP開発)"
+  },
+  "agents_count": 6
+}

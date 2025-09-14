@@ -1,0 +1,252 @@
+{
+  "verification_summary": {
+    "timestamp": "2025-09-13 00:08:33",
+    "duration_seconds": 0.92,
+    "total_tests": 16,
+    "passed_tests": 15,
+    "success_rate": 93.8
+  },
+  "category_breakdown": {
+    "project_structure": {
+      "total": 2,
+      "passed": 2
+    },
+    "frontend_code_quality": {
+      "total": 1,
+      "passed": 1
+    },
+    "css_quality": {
+      "total": 1,
+      "passed": 1
+    },
+    "backend_code_quality": {
+      "total": 2,
+      "passed": 2
+    },
+    "dependencies": {
+      "total": 4,
+      "passed": 3
+    },
+    "api_endpoints": {
+      "total": 2,
+      "passed": 2
+    },
+    "docker_compose": {
+      "total": 2,
+      "passed": 2
+    },
+    "integration_docs": {
+      "total": 2,
+      "passed": 2
+    }
+  },
+  "detailed_results": [
+    {
+      "test_type": "project_structure",
+      "project": "FullStack_Project_1",
+      "passed": true,
+      "score": "10/10",
+      "issues": [],
+      "summary": "構造チェック 10/10 合格"
+    },
+    {
+      "test_type": "project_structure",
+      "project": "FullStack_Project_2",
+      "passed": true,
+      "score": "10/10",
+      "issues": [],
+      "summary": "構造チェック 10/10 合格"
+    },
+    {
+      "test_type": "frontend_code_quality",
+      "file": "full_stack_projects\\FullStack_Project_1\\frontend\\App_20250913_000620\\src\\components\\LoginPage\\LoginPage.tsx",
+      "passed": true,
+      "score": "5/6",
+      "checks": {
+        "typescript_import": false,
+        "interface_definition": true,
+        "state_management": true,
+        "error_handling": true,
+        "accessibility": true,
+        "proper_exports": true
+      },
+      "summary": "品質スコア 5/6"
+    },
+    {
+      "test_type": "css_quality",
+      "file": "full_stack_projects\\FullStack_Project_1\\frontend\\App_20250913_000620\\src\\components\\LoginPage\\LoginPage.css",
+      "passed": true,
+      "score": "5/5",
+      "checks": {
+        "responsive_design": true,
+        "animations": true,
+        "flexbox_grid": true,
+        "hover_effects": true,
+        "proper_selectors": true
+      },
+      "summary": "CSS品質 5/5"
+    },
+    {
+      "test_type": "backend_code_quality",
+      "file": "full_stack_projects\\FullStack_Project_2\\backend\\API_20250913_000621\\server.js",
+      "passed": true,
+      "score": "7/7",
+      "checks": {
+        "express_framework": true,
+        "cors_enabled": true,
+        "jwt_auth": true,
+        "error_handling": true,
+        "middleware": true,
+        "api_routes": true,
+        "security": true
+      },
+      "summary": "バックエンド品質 7/7"
+    },
+    {
+      "test_type": "backend_code_quality",
+      "file": "full_stack_projects\\FullStack_Project_1\\backend\\API_20250913_000620\\server.js",
+      "passed": true,
+      "score": "7/7",
+      "checks": {
+        "express_framework": true,
+        "cors_enabled": true,
+        "jwt_auth": true,
+        "error_handling": true,
+        "middleware": true,
+        "api_routes": true,
+        "security": true
+      },
+      "summary": "バックエンド品質 7/7"
+    },
+    {
+      "test_type": "dependencies",
+      "file": "full_stack_projects\\FullStack_Project_2\\backend\\API_20250913_000621\\package.json",
+      "passed": true,
+      "score": "4/4",
+      "dependencies": 3,
+      "scripts": 1,
+      "summary": "依存関係 4/4"
+    },
+    {
+      "test_type": "dependencies",
+      "file": "full_stack_projects\\FullStack_Project_2\\frontend\\App_20250913_000621\\package.json",
+      "passed": false,
+      "error": "Expecting property name enclosed in double quotes: line 1 column 3 (char 2)",
+      "summary": "JSON解析エラー"
+    },
+    {
+      "test_type": "dependencies",
+      "file": "full_stack_projects\\FullStack_Project_1\\backend\\API_20250913_000620\\package.json",
+      "passed": true,
+      "score": "4/4",
+      "dependencies": 3,
+      "scripts": 1,
+      "summary": "依存関係 4/4"
+    },
+    {
+      "test_type": "dependencies",
+      "file": "full_stack_projects\\FullStack_Project_1\\frontend\\App_20250913_000620\\package.json",
+      "passed": true,
+      "score": "4/4",
+      "dependencies": 2,
+      "scripts": 2,
+      "summary": "依存関係 4/4"
+    },
+    {
+      "test_type": "api_endpoints",
+      "file": "full_stack_projects\\FullStack_Project_2\\backend\\API_20250913_000621\\server.js",
+      "passed": true,
+      "score": "4/4",
+      "found_endpoints": [
+        "POST.*register",
+        "POST.*login",
+        "GET.*me",
+        "GET.*health"
+      ],
+      "summary": "エンドポイント 4/4"
+    },
+    {
+      "test_type": "api_endpoints",
+      "file": "full_stack_projects\\FullStack_Project_1\\backend\\API_20250913_000620\\server.js",
+      "passed": true,
+      "score": "4/4",
+      "found_endpoints": [
+        "POST.*register",
+        "POST.*login",
+        "GET.*me",
+        "GET.*health"
+      ],
+      "summary": "エンドポイント 4/4"
+    },
+    {
+      "test_type": "docker_compose",
+      "file": "full_stack_projects\\FullStack_Project_2\\integration\\docker-compose.yml",
+      "passed": true,
+      "score": "7/7",
+      "checks": {
+        "version_specified": true,
+        "services_defined": true,
+        "frontend_service": true,
+        "backend_service": true,
+        "database_service": true,
+        "port_mapping": true,
+        "volumes_defined": true
+      },
+      "summary": "Docker設定 7/7"
+    },
+    {
+      "test_type": "docker_compose",
+      "file": "full_stack_projects\\FullStack_Project_1\\integration\\docker-compose.yml",
+      "passed": true,
+      "score": "7/7",
+      "checks": {
+        "version_specified": true,
+        "services_defined": true,
+        "frontend_service": true,
+        "backend_service": true,
+        "database_service": true,
+        "port_mapping": true,
+        "volumes_defined": true
+      },
+      "summary": "Docker設定 7/7"
+    },
+    {
+      "test_type": "integration_docs",
+      "file": "full_stack_projects\\FullStack_Project_1\\integration\\README.md",
+      "passed": true,
+      "score": "6/6",
+      "checks": {
+        "setup_instructions": true,
+        "architecture_description": true,
+        "usage_examples": true,
+        "project_structure": true,
+        "next_steps": true,
+        "generated_notice": true
+      },
+      "summary": "ドキュメント品質 6/6"
+    },
+    {
+      "test_type": "integration_docs",
+      "file": "full_stack_projects\\FullStack_Project_2\\integration\\README.md",
+      "passed": true,
+      "score": "6/6",
+      "checks": {
+        "setup_instructions": true,
+        "architecture_description": true,
+        "usage_examples": true,
+        "project_structure": true,
+        "next_steps": true,
+        "generated_notice": true
+      },
+      "summary": "ドキュメント品質 6/6"
+    }
+  ],
+  "overall_assessment": "優秀 - 本番運用可能レベル",
+  "recommendations": [
+    "実際のnpm installとサーバー起動テスト",
+    "ユニットテストの追加実装",
+    "セキュリティ監査の実施",
+    "パフォーマンステストの実行",
+    "実際のデプロイ環境での動作確認"
+  ]
+}
