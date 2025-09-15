@@ -1,0 +1,22 @@
+{
+  "timestamp": "20250914_135227",
+  "business_requirement": "地域の農家と都市部のレストランを直接つなぐ、新鮮な食材のマッチングプラットフォーム。農家は収穫情報を投稿でき、レストランは必要な食材を検索・注文できる。",
+  "project_overview": {
+    "name": "FreshConnect（フレッシュコネクト）",
+    "description": "地域の農家と都市部のレストランを直接つなぎ、新鮮な食材のサプライチェーンを革新するB2Bマッチングプラットフォーム。",
+    "technical_stack": [
+      "Next.js (React)",
+      "React Native",
+      "NestJS (Node.js, TypeScript)",
+      "PostgreSQL",
+      "Elasticsearch (AWS OpenSearch Service)",
+      "AWS (ECS, RDS, S3, CloudFront, SQS)",
+      "Docker",
+      "Terraform",
+      "GitHub Actions",
+      "Stripe API"
+    ],
+    "estimated_timeline": "6-9ヶ月 (MVPリリースまで)"
+  },
+  "agents_count": 6
+}

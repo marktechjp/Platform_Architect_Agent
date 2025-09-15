@@ -1,0 +1,20 @@
+{
+  "timestamp": "20250914_135024",
+  "business_requirement": "電気工事業界の資格取得支援アプリ",
+  "project_overview": {
+    "name": "電工資格マスター",
+    "description": "電気工事士（第二種・第一種）の資格取得を総合的に支援するモバイル学習アプリケーション。過去問題、模擬試験、技能試験対策の動画コンテンツを提供し、個々の学習者の進捗管理と苦手分野の克服をサポートする。",
+    "technical_stack": [
+      "React Native",
+      "TypeScript",
+      "Node.js (NestJS)",
+      "PostgreSQL",
+      "AWS (Fargate, RDS, S3, Cognito, CloudFront)",
+      "Docker",
+      "GitHub Actions",
+      "Terraform"
+    ],
+    "estimated_timeline": "6ヶ月 (MVP開発)"
+  },
+  "agents_count": 6
+}

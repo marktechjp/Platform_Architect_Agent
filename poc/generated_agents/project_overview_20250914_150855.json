@@ -1,0 +1,17 @@
+{
+  "timestamp": "20250914_150855",
+  "business_requirement": "電気工事業界の資格取得を支援するログイン可能なアプリ",
+  "project_overview": {
+    "name": "ログイン機能付きブログサイト",
+    "description": "ユーザー認証機能を持つ個人ブログプラットフォーム",
+    "technical_stack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT認証"
+    ],
+    "estimated_timeline": "8-10週間"
+  },
+  "agents_count": 3
+}
